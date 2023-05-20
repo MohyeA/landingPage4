@@ -1,0 +1,103 @@
+* {
+    font-family: "Heebo", sans-serif;
+    color: #2c2c2c;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #071192;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+p {
+    top: 303px;
+    left: 1165px;
+    width: 417px;
+    height: 58px;
+    text-align: right;
+    letter-spacing: 0px;
+    opacity: 1;
+
+}
+
+body {
+    background-image: url(img/img-bg.png);
+    background-repeat: no-repeat;
+}
+
+.contaner {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.card {
+    background-color: #EEEEEED1;
+    max-width: 23.375rem;
+    height: 25.625rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3.125rem;
+}
+
+input {
+    display: block;
+    border: none;
+    border-bottom: 3px solid #071192;
+    width: 90%;
+    height: 50px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background-color: #071192;
+    color: white;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    border: none;
+}
+
+label {
+    margin-top: 20px;
+}
+
+label,
+button {
+    display: block;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .contact {
+        position: static;
+        padding-top: 30%;
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        max-width: 100%;
+
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+}
+
+.details {
+    margin-top: 10px;
+}
